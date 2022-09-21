@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/ProfileApp/static/css/main.073c9b0a.css",
-    "main.js": "/ProfileApp/static/js/main.eebd53d1.js",
+    "main.css": "/ProfileApp/static/css/main.eae0494d.css",
+    "main.js": "/ProfileApp/static/js/main.c1832dba.js",
     "static/js/787.a2a9efb4.chunk.js": "/ProfileApp/static/js/787.a2a9efb4.chunk.js",
-    "static/media/logo.svg": "/ProfileApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/professional-scrum-developer.png": "/ProfileApp/static/media/professional-scrum-developer.6fbf5989dd330e1c60f5.png",
+    "static/media/aws-certified-cloud-practitioner.png": "/ProfileApp/static/media/aws-certified-cloud-practitioner.e30e251eff6f3ed32ea1.png",
+    "static/media/microsoft-certified-azure-fundamentals.png": "/ProfileApp/static/media/microsoft-certified-azure-fundamentals.55198b97fe3b63e8b4a0.png",
+    "static/media/microsoft-365-certified-fundamentals.png": "/ProfileApp/static/media/microsoft-365-certified-fundamentals.5e484a51c9ca363b6bbc.png",
+    "static/media/aws-certified-developer-associate.png": "/ProfileApp/static/media/aws-certified-developer-associate.34a92aa3e419024c1070.png",
     "index.html": "/ProfileApp/index.html",
-    "main.073c9b0a.css.map": "/ProfileApp/static/css/main.073c9b0a.css.map",
-    "main.eebd53d1.js.map": "/ProfileApp/static/js/main.eebd53d1.js.map",
+    "main.eae0494d.css.map": "/ProfileApp/static/css/main.eae0494d.css.map",
+    "main.c1832dba.js.map": "/ProfileApp/static/js/main.c1832dba.js.map",
     "787.a2a9efb4.chunk.js.map": "/ProfileApp/static/js/787.a2a9efb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.eebd53d1.js"
+    "static/css/main.eae0494d.css",
+    "static/js/main.c1832dba.js"
   ]
 }
