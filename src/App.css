@@ -1,38 +1,138 @@
-.App {
+:root{
+  --base: #171717;
+  --secondary: #dfdfdf;
+  --detail: #DA0037;
+  --text: #F2F2F2;
+  --contentText: #181818;
+  --navbar: #444444;
+}
+
+/*
+  --base: #222831;
+  --secondary: #DDDDDD;
+  --detail: #F05454;
+  --text: #F2F2F2;
+  --contentText: #181818;
+  --navbar: #30475E;
+
+  --base: #181818;
+  --secondary: #150050;
+  --detail: #610094;
+  --text: #F2F2F2;
+  --contentText: #f0f0f0;
+  --navbar: #3F0071;
+
+  --base: #191919;
+  --secondary: #ECDBBA;
+  --detail: #C84B31;
+  --text: #F2F2F2;
+  --contentText: #181818;
+  --navbar: #2D4263;
+*/
+
+body{
+  margin: 0;
+  background-color: var(--base);
+}
+
+.navbar{
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--navbar);
+  width: 100%;
+}
+
+.navLink{
+  float: right;
+}
+
+.navItem .navLink{
+  display: block;
+  color: var(--text);
+  font-size: larger;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active{
+  background-color: var(--detail);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section{
+  background-color: var(--secondary);
+  border: 2px solid var(--detail);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.titleContainer{
+  padding-top: 42px;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutContainer{
+  margin: 10px 0 10px 80px;
+  padding: 2px 0 8px 20px;
+  border-right: 0;
+  border-radius: 25px 0 0 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.certContainer{
+  text-align: end;
+  margin: 10px 80px 10px 0;
+  padding: 2px 20px 8px 0;
+  border-left: 0;
+  border-radius: 0 25px 25px 0;
+}
+
+.expContainer{
+  margin: 10px 0 10px 80px;
+  padding: 2px 0 8px 20px;
+  border-right: 0;
+  border-radius: 25px 0 0 25px;
+}
+
+.skillsContainer{
+  text-align: end;
+  justify-content: right;
+  margin: 10px 80px 10px 0;
+  padding: 2px 20px 8px 0;
+  border-left: 0;
+  border-radius: 0 25px 25px 0;
+}
+
+h3, p, tr{
+  color: var(--contentText);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+  color: var(--text);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link {
+  color: aqua;
+}
+a:visited{
+  color:#df6cee
+}
+
+table{
+  border-collapse: collapse;
+  display: inline;
+}
+
+.workExpTable{
+  width: 100%;
+}
+
+th{
+  text-align: start;
+  border-bottom: 1px solid var(--detail);
+}
+td{
+  padding: 5px;
 }
