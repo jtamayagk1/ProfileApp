@@ -1,4 +1,4 @@
-:root{
+/* :root{
   --base: #171717;
   --secondary: #dfdfdf;
   --detail: #DA0037;
@@ -12,6 +12,14 @@
 body{
   margin: 0;
   background-color: var(--base);
+} */
+
+body{
+  padding-top: 60px;
+  margin: 0;
+}
+
+:root{
 }
 
 /*

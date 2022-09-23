@@ -1,37 +1,25 @@
 import React from "react";
+import { Col, Container } from "react-bootstrap";
+import SkillItem from "./SkillItem";
+
+var skills = [
+    "AWS Development",
+    "React", 
+    "Bootstrap", 
+    "Java", 
+    "JavaScript",
+    "HTML",
+    "CSS"]
 
 export default function Skills(){
     return(
-        <div class="skill section">
+        <Col className ="col-6 text-center">
             <h3>Skills</h3>
-            <table>
-                <tr>
-                    <td>
-                        <table>
-                            <tr class="skillItem">
-                                <td>AWS Development</td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr class="skillItem">
-                                <td>Java</td>
-                                <td>⭐⭐</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>
-                        <table>
-                            <tr class="skillItem">
-                                <td>React</td>
-                                <td>⭐⭐⭐</td>
-                            </tr>
-                            <tr class="skillItem">
-                                <td>JavaScript</td>
-                                <td>⭐⭐</td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </div>
+            <Container className="d-inline-flex flex-wrap">
+                {skills.map(s => 
+                    <SkillItem name={s}/>
+                )}
+            </Container>
+        </Col>
     );
 }

@@ -4,10 +4,10 @@ import awsDeveloper from '../Images/aws-certified-developer-associate.png';
 import ms365 from '../Images/microsoft-365-certified-fundamentals.png';
 import azure from '../Images/microsoft-certified-azure-fundamentals.png';
 import scrumDev from '../Images/professional-scrum-developer.png';
-
+import { Col } from "react-bootstrap";
 export default function Certifications(){
     return(
-        <div class="skill section">
+        <Col className="col-6 text-center">
             <h3>Certifications</h3>
             <div>
                 <a href="https://www.credly.com/badges/56dd2c6b-9747-487d-92aa-133bd1a0e910/public_url">
@@ -26,6 +26,6 @@ export default function Certifications(){
                 <img src={ms365} alt="Microsoft 365 Fundamentals"/>
                 </a>
             </div>
-        </div>
+        </Col>
     );
 }

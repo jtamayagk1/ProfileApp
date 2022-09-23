@@ -4,8 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
+import 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+document.body.style.backgroundColor = "#171717"
+document.body.style.color = "#F2F2F2"
 root.render(
   <BrowserRouter>
     <App />
