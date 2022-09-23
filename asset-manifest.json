@@ -1,20 +1,37 @@
 {
   "files": {
-    "main.css": "/ProfileApp/static/css/main.eae0494d.css",
-    "main.js": "/ProfileApp/static/js/main.c1832dba.js",
+    "main.css": "/ProfileApp/static/css/main.0ffa8916.css",
+    "main.js": "/ProfileApp/static/js/main.f6ea079a.js",
     "static/js/787.a2a9efb4.chunk.js": "/ProfileApp/static/js/787.a2a9efb4.chunk.js",
+    "static/media/fa-solid-900.svg": "/ProfileApp/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/ProfileApp/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/fa-solid-900.eot": "/ProfileApp/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/ProfileApp/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/fa-regular-400.svg": "/ProfileApp/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/fa-brands-400.eot": "/ProfileApp/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/ProfileApp/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/ProfileApp/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/ProfileApp/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/ProfileApp/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/ProfileApp/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/fa-regular-400.eot": "/ProfileApp/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/ProfileApp/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/professional-scrum-developer.png": "/ProfileApp/static/media/professional-scrum-developer.6fbf5989dd330e1c60f5.png",
     "static/media/aws-certified-cloud-practitioner.png": "/ProfileApp/static/media/aws-certified-cloud-practitioner.e30e251eff6f3ed32ea1.png",
+    "static/media/fa-regular-400.woff": "/ProfileApp/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/microsoft-certified-azure-fundamentals.png": "/ProfileApp/static/media/microsoft-certified-azure-fundamentals.55198b97fe3b63e8b4a0.png",
     "static/media/microsoft-365-certified-fundamentals.png": "/ProfileApp/static/media/microsoft-365-certified-fundamentals.5e484a51c9ca363b6bbc.png",
     "static/media/aws-certified-developer-associate.png": "/ProfileApp/static/media/aws-certified-developer-associate.34a92aa3e419024c1070.png",
+    "static/media/fa-regular-400.woff2": "/ProfileApp/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/ProfileApp/index.html",
-    "main.eae0494d.css.map": "/ProfileApp/static/css/main.eae0494d.css.map",
-    "main.c1832dba.js.map": "/ProfileApp/static/js/main.c1832dba.js.map",
+    "static/media/arrow_left.svg": "/ProfileApp/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
+    "static/media/arrow_right.svg": "/ProfileApp/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
+    "main.0ffa8916.css.map": "/ProfileApp/static/css/main.0ffa8916.css.map",
+    "main.f6ea079a.js.map": "/ProfileApp/static/js/main.f6ea079a.js.map",
     "787.a2a9efb4.chunk.js.map": "/ProfileApp/static/js/787.a2a9efb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eae0494d.css",
-    "static/js/main.c1832dba.js"
+    "static/css/main.0ffa8916.css",
+    "static/js/main.f6ea079a.js"
   ]
 }
