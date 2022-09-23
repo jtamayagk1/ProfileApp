@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Pages/Home';
 import Navigation from './Components/Navigation';
 import { Container } from 'react-bootstrap';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -9,10 +10,11 @@ function App() {
     //     <Navigation/>
     //     <Home/>
     // </div>
-    <Container className='' >
+    <>
         <Navigation/>
         <Home/>
-    </Container>
+        <Footer/>
+    </>
   );
 }
 

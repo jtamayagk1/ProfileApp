@@ -7,7 +7,7 @@ import scrumDev from '../Images/professional-scrum-developer.png';
 import { Col } from "react-bootstrap";
 export default function Certifications(){
     return(
-        <Col className="col-6 text-center">
+        <Col className="col-12 col-lg-6 text-center">
             <h3>Certifications</h3>
             <div>
                 <a href="https://www.credly.com/badges/56dd2c6b-9747-487d-92aa-133bd1a0e910/public_url">

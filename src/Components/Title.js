@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 export default function Title(props){
     return(
-        <Container className="">
+        <Row className="">
             <h1 className='text-center'>Jonathan Amaya</h1>
-        </Container>
+        </Row>
     );
 }

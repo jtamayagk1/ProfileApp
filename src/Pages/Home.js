@@ -1,24 +1,22 @@
 import React from "react";
-import AboutMe from "../Components/AboutMe";
-import Certifications from "../Components/Certifications";
-import Experience from "../Components/Experience";
-import Skills from "../Components/Skills";
 import Title from "../Components/Title";
+import AboutMe from "../Components/AboutMe";
+import Experience from "../Components/Experience";
+import Certifications from "../Components/Certifications";
+import Skills from "../Components/Skills";
 import { Container, Row } from "react-bootstrap";
 
 export default function Home(){
     return(
 
-        <Container className="p-2 m-auto">
+        <Container className="bg-success justify-content-center" style={{maxWidth:"100%", flex:"1"}}>
             <Title/>
             <AboutMe/>
             <Experience/>
-            <Container className="">
-                <Row>
-                    <Certifications/>
-                    <Skills/>
-                </Row>
-            </Container>
+            <Row>
+                <Certifications/>
+                <Skills/>
+            </Row>
         </Container>
         
     );
