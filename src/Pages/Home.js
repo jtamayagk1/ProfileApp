@@ -9,7 +9,8 @@ import { Container, Row } from "react-bootstrap";
 export default function Home(){
     return(
 
-        <Container className="bg-success justify-content-center" style={{maxWidth:"100%", flex:"1"}}>
+        <Container className="justify-content-center"
+                style={{maxWidth:"100%", flex:"1"}}>
             <Title/>
             <AboutMe/>
             <Experience/>

@@ -1,22 +1,28 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
-import { MDBIcon, MDBBtn } from "mdb-react-ui-kit";
+import { Row, Col, Container, Button } from "react-bootstrap";
+import Github from "../Images/github.png";
+import LinkedIn from "../Images/linkedin.png";
+import Email from "../Images/email.png";
+
 
 export default function Footer(){
     return(
-        <Container className="bg-dark fluid" relative="bottom" style={{maxWidth:"100%"}}>
-            <Row className="bg-warning text-center">
-                <Col className="col-12 col-md-4 bg-primary">
-                    <h2>test</h2>
+        <Container className="bg-dark fluid position-relative bottom-0 left-0 right-0" style={{maxWidth:"100%"}}>
+            <Row className="text-center">
+                <Col className="col-12 col-md-4">
                 </Col>
-                <Col className="col-12 col-md-4 bg-secondary">
-                    <h2>test</h2>
-                    <MDBBtn outline color="light" floating className="m-1">
-                        <MDBIcon fab icon="github"/>
-                    </MDBBtn>
+                <Col className="col-12 col-md-4 ">
+                    <a href="http://github.com/jtamayagk1">
+                        <img src={Github} atl="Github image"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jonathan-amaya-a562271b6/">
+                        <img src={LinkedIn} atl="LinkedIn image"/>
+                    </a>
+                    <a href="http://github.com/jtamayagk1">
+                        <img src={Email} atl="Email image"/>
+                    </a>
                 </Col>
                 <Col className="col-12 col-md-4">
-                    <h2>test</h2>
                 </Col>
             </Row>
         </Container>

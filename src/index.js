@@ -6,10 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 import 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-document.body.style.backgroundColor = "#171717"
+document.body.style.backgroundColor = "#191919"
 document.body.style.color = "#F2F2F2"
 document.body.style.fontFamily = "Roboto, Helvetica, Arial, sans-serif"
 root.render(
