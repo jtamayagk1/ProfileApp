@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProfileApp/static/css/main.0ffa8916.css",
-    "main.js": "/ProfileApp/static/js/main.f6ea079a.js",
+    "main.css": "/ProfileApp/static/css/main.7148507d.css",
+    "main.js": "/ProfileApp/static/js/main.090ad104.js",
     "static/js/787.a2a9efb4.chunk.js": "/ProfileApp/static/js/787.a2a9efb4.chunk.js",
     "static/media/fa-solid-900.svg": "/ProfileApp/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/ProfileApp/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -22,16 +22,17 @@
     "static/media/microsoft-certified-azure-fundamentals.png": "/ProfileApp/static/media/microsoft-certified-azure-fundamentals.55198b97fe3b63e8b4a0.png",
     "static/media/microsoft-365-certified-fundamentals.png": "/ProfileApp/static/media/microsoft-365-certified-fundamentals.5e484a51c9ca363b6bbc.png",
     "static/media/aws-certified-developer-associate.png": "/ProfileApp/static/media/aws-certified-developer-associate.34a92aa3e419024c1070.png",
+    "static/media/backend.jpg": "/ProfileApp/static/media/backend.c45161d71ca1bfa6034d.jpg",
     "static/media/fa-regular-400.woff2": "/ProfileApp/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/ProfileApp/index.html",
     "static/media/arrow_left.svg": "/ProfileApp/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/ProfileApp/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.0ffa8916.css.map": "/ProfileApp/static/css/main.0ffa8916.css.map",
-    "main.f6ea079a.js.map": "/ProfileApp/static/js/main.f6ea079a.js.map",
+    "main.7148507d.css.map": "/ProfileApp/static/css/main.7148507d.css.map",
+    "main.090ad104.js.map": "/ProfileApp/static/js/main.090ad104.js.map",
     "787.a2a9efb4.chunk.js.map": "/ProfileApp/static/js/787.a2a9efb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ffa8916.css",
-    "static/js/main.f6ea079a.js"
+    "static/css/main.7148507d.css",
+    "static/js/main.090ad104.js"
   ]
 }
