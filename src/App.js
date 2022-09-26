@@ -1,18 +1,23 @@
 import './App.css';
 import Home from './Pages/Home';
+import Contact from './Pages/Contact';
+import About from './Pages/About';
+import Portfolio from './Pages/Portfolio';
+import ErrorPage from './Pages/Error';
 import Navigation from './Components/Navigation';
-import { Container } from 'react-bootstrap';
 import Footer from './Components/Footer';
+import {Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    // <div className="App">
-    //     <Navigation/>
-    //     <Home/>
-    // </div>
     <>
         <Navigation/>
-        <Home/>
+        <Routes>
+          <Route path='/ProfileApp/' element={<Home/>} errorElement={<ErrorPage/>}/>
+          <Route path='/ProfileApp/About' element={<About/>} errorElement={<ErrorPage/>}/>
+          <Route path='/ProfileApp/Contact' element={<Contact/>} errorElement={<ErrorPage/>}/>
+          <Route path='/ProfileApp/Portfolio' element={<Portfolio/>} errorElement={<ErrorPage/>}/>
+        </Routes>
         <Footer/>
     </>
   );

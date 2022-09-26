@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import Github from "../Images/github.png";
 import LinkedIn from "../Images/linkedin.png";
 import Email from "../Images/email.png";
@@ -13,13 +13,13 @@ export default function Footer(){
                 </Col>
                 <Col className="col-12 col-md-4 ">
                     <a href="http://github.com/jtamayagk1">
-                        <img src={Github} atl="Github image"/>
+                        <img src={Github} alt="Github"/>
                     </a>
                     <a href="https://www.linkedin.com/in/jonathan-amaya-a562271b6/">
-                        <img src={LinkedIn} atl="LinkedIn image"/>
+                        <img src={LinkedIn} alt="LinkedIn"/>
                     </a>
                     <a href="http://github.com/jtamayagk1">
-                        <img src={Email} atl="Email image"/>
+                        <img src={Email} alt="Email"/>
                     </a>
                 </Col>
                 <Col className="col-12 col-md-4">

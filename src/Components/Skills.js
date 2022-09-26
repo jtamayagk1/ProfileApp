@@ -21,7 +21,7 @@ export default function Skills(){
             <h3>Skills</h3>
             <Container className="d-flex flex-wrap justify-content-center">
                 {skills.map(s => 
-                    <SkillItem skill={s}/>
+                    <SkillItem skill={s} key={Math.random()}/>
                 )}
             </Container>
         </Col>

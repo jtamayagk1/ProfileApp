@@ -1,17 +1,30 @@
 import React from "react";
-import { Container, Nav } from "react-bootstrap";
-import { Navbar } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+import './Navigation.css';
 
 export default function Navigation(){
     return(
-        <Navbar className="expand-lg" variant="dark" bg="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
             <Container className="fluid">
-                <Navbar.Brand>Jonathan Amaya</Navbar.Brand>
-                <Nav className="d-flex">
-                    <Nav.Link>Home</Nav.Link>
-                    <Nav.Link>Contact</Nav.Link>
-                    <Nav.Link>Work</Nav.Link>
-                </Nav>
+                <NavLink to="/ProfileApp/" className="navtitle">Home</NavLink>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                    <Nav className="">
+                        <NavLink to='/ProfileApp/About' className="navitem"
+                        style={({isActive}) => {
+                            return isActive ? {fontWeight:500} : {}
+                        }}>About</NavLink>
+                        <NavLink to='/ProfileApp/Contact' className="navitem"
+                        style={({isActive}) => {
+                            return isActive ? {fontWeight:500} : {}
+                        }}>Contact</NavLink>
+                        <NavLink to='/ProfileApp/Portfolio' className="navitem"
+                        style={({isActive}) => {
+                            return isActive ? {fontWeight:500} : {}
+                        }}>Portfolio</NavLink>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );

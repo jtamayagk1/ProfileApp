@@ -1,28 +1,20 @@
-/* :root{
-  --base: #171717;
-  --secondary: #dfdfdf;
-  --detail: #DA0037;
+:root{
+  --base: #191919;
+  --extra: #ECDBBA;
+  --detail: #C84B31;
   --text: #F2F2F2;
   --contentText: #181818;
-  --navbar: #444444;
+  --card: #2D4263;
   margin: 0;
-  background-color: var(--base);
 }
 
 body{
-  margin: 0;
-  background-color: var(--base);
-} */
-
-body{
-  padding-top: 60px;
+  padding-top: 70px !important;
   margin: 0;
   padding: 0;
-  
 }
 
-:root{
-}
+
 /*
   --base: #222831;
   --secondary: #DDDDDD;
