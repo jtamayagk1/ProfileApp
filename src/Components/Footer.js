@@ -7,7 +7,7 @@ import Email from "../Images/email.png";
 
 export default function Footer(){
     return(
-        <Container className="bg-dark fluid position-relative bottom-0 left-0 right-0" style={{maxWidth:"100%"}}>
+        <Container className="bg-dark bottom-0 left-0 right-0" sticky="bottom" style={{maxWidth:"100%"}}>
             <Row className="text-center">
                 <Col className="col-12 col-md-4">
                 </Col>

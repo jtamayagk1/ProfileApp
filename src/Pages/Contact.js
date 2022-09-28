@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Container, Form, Button, Alert } from "react-bootstrap";
+import { Container, Form, Button, Alert, Row } from "react-bootstrap";
 import './Contact.css'
 
 export default function Contact(){
@@ -28,19 +28,18 @@ export default function Contact(){
     }
 
     return(
-        <>
-        <Container className="bg-white rounded my-3 p-4 w-50">
-            <Alert className="" variant="success" show={show} dismissible onClose={() => setShow(false)}>
-                <Alert.Heading>Email Sent!</Alert.Heading>
-            </Alert>
-            <h1 className="contacttitle">Send me an email</h1>
-            <Form>
+        <Container className="mx-auto" style={{minHeight: "calc(100vh - 67px - 64px - 24px)"}}>
+            <Form className="mx-4 bg-white rounded my-3 p-4">
+                <Alert className="" variant="success" show={show} dismissible onClose={() => setShow(false)}>
+                    <Alert.Heading>Email Sent!</Alert.Heading>
+                </Alert>
+                <h1 className="contacttitle">Send me an email</h1>
                 <Form.Group className="mb-2">
                     <Form.Label className="text-black">Subject</Form.Label>
                     <Form.Control onChange={(e) => setSubject(e.target.value)}/>
                 </Form.Group>
                 <Form.Group className="my-2">
-                    <Form.Label className="text-black">Email</Form.Label>
+                    <Form.Label className="text-black">Message</Form.Label>
                     <Form.Control as="textarea" rows={3} onChange={(e) => setBody(e.target.value)} placeholder="What would you like to say..."/>
                 </Form.Group>
                 <Form.Group className="text-center">
@@ -48,6 +47,5 @@ export default function Contact(){
                 </Form.Group>
             </Form>
         </Container>
-        </>
     );
 }

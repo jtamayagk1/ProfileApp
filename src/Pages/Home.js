@@ -14,7 +14,7 @@ export default function Home(){
             <Title/>
             <AboutMe/>
             <Experience/>
-            <Row>
+            <Row className="mt-2">
                 <Certifications/>
                 <Skills/>
             </Row>

@@ -1,11 +1,11 @@
 .navtitle{
     color: var(--text) !important;
-    font-size: x-large;
-    font-weight: 700;
+    font-size: x-large !important;
+    font-weight: 700 !important;
 }
 
 .navitem{
     color: var(--text) !important;
-    margin: 8px;
-    font-size: large;
+    margin: 8px !important;
+    font-size: large !important;
 }
