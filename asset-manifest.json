@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProfileApp/static/css/main.7148507d.css",
-    "main.js": "/ProfileApp/static/js/main.090ad104.js",
+    "main.css": "/ProfileApp/static/css/main.ef12bb8a.css",
+    "main.js": "/ProfileApp/static/js/main.38adfe63.js",
     "static/js/787.a2a9efb4.chunk.js": "/ProfileApp/static/js/787.a2a9efb4.chunk.js",
     "static/media/fa-solid-900.svg": "/ProfileApp/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/ProfileApp/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -27,12 +27,12 @@
     "index.html": "/ProfileApp/index.html",
     "static/media/arrow_left.svg": "/ProfileApp/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/ProfileApp/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.7148507d.css.map": "/ProfileApp/static/css/main.7148507d.css.map",
-    "main.090ad104.js.map": "/ProfileApp/static/js/main.090ad104.js.map",
+    "main.ef12bb8a.css.map": "/ProfileApp/static/css/main.ef12bb8a.css.map",
+    "main.38adfe63.js.map": "/ProfileApp/static/js/main.38adfe63.js.map",
     "787.a2a9efb4.chunk.js.map": "/ProfileApp/static/js/787.a2a9efb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7148507d.css",
-    "static/js/main.090ad104.js"
+    "static/css/main.ef12bb8a.css",
+    "static/js/main.38adfe63.js"
   ]
 }
