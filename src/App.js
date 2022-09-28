@@ -4,10 +4,7 @@ import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import ErrorPage from './Pages/Error';
-import Navigation from './Components/Navigation';
-import Footer from './Components/Footer';
 import {Routes, Route } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
 
 function App() {
   return (

@@ -18,7 +18,7 @@ var skills = [
 export default function Skills(){
     return(
         <Col className ="col-12 col-lg-6 text-center my-3">
-            <h3>Skills</h3>
+            <h3 className="subtitle">Skills</h3>
             <Container className="d-flex flex-wrap justify-content-center">
                 {skills.map(s => 
                     <SkillItem skill={s} key={Math.random()}/>

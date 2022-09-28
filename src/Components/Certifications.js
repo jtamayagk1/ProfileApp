@@ -8,7 +8,7 @@ import { Col } from "react-bootstrap";
 export default function Certifications(){
     return(
         <Col className="col-12 col-lg-6 text-center my-3">
-            <h3>Certifications</h3>
+            <h3 className="subtitle">Certifications</h3>
             <div>
                 <a href="https://www.credly.com/badges/56dd2c6b-9747-487d-92aa-133bd1a0e910/public_url">
                 <img src={awsPractioner} alt="AWS Cloud Practitioner"/>

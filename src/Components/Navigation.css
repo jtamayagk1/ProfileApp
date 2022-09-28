@@ -4,8 +4,16 @@
     font-weight: 700 !important;
 }
 
+.navtitle:hover{
+    color: var(--detail)!important;
+}
+
 .navitem{
     color: var(--text) !important;
     margin: 8px !important;
-    font-size: large !important;
+    font-size: larger!important;
+}
+
+.navitem:hover{
+    color: var(--detail)!important;
 }
