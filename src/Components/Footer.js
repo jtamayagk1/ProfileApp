@@ -3,11 +3,11 @@ import { Row, Col, Container } from "react-bootstrap";
 import Github from "../Images/github.png";
 import LinkedIn from "../Images/linkedin.png";
 import Email from "../Images/email.png";
-
+import "./Footer.css"
 
 export default function Footer(){
     return(
-        <Container className="bg-dark bottom-0 left-0 right-0" sticky="bottom" style={{maxWidth:"100%"}}>
+        <Container className="footer mt-5 bottom-0 left-0 right-0" sticky="bottom" style={{maxWidth:"100%"}}>
             <Row className="text-center">
                 <Col className="col-12 col-md-4">
                 </Col>

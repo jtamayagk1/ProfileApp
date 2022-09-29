@@ -2,3 +2,11 @@
     color: var(--base) !important;
     font-weight: 300 !important;
 }
+
+.section{
+    border: 2px solid var(--border) !important;
+    border-radius: 20px !important; 
+    box-shadow: 0px 0px 10px 8px var(--shadow) !important;
+    background-color: var(--comp) !important;
+}
+

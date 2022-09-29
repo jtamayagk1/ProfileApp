@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import { Container, Form, Button, Alert, Row } from "react-bootstrap";
-import './Contact.css'
+import { Container, Form, Button, Alert, Row, Nav } from "react-bootstrap";
+import './Contact.css';
 
 export default function Contact(){
 
@@ -28,23 +28,23 @@ export default function Contact(){
     }
 
     return(
-        <Container className="mx-auto" style={{minHeight: "calc(100vh - 67px - 64px - 24px)"}}>
-            <Form className="mx-4 bg-white rounded my-3 p-4">
+        <Container className="d-flex-inline">
+            <Form className="section m-4 p-4">
                 <Alert className="" variant="success" show={show} dismissible onClose={() => setShow(false)}>
                     <Alert.Heading>Email Sent!</Alert.Heading>
                 </Alert>
-                <h1 className="contacttitle">Send me an email</h1>
-                <Form.Group className="mb-2">
-                    <Form.Label className="text-black">Subject</Form.Label>
-                    <Form.Control onChange={(e) => setSubject(e.target.value)}/>
-                </Form.Group>
-                <Form.Group className="my-2">
-                    <Form.Label className="text-black">Message</Form.Label>
-                    <Form.Control as="textarea" rows={3} onChange={(e) => setBody(e.target.value)} placeholder="What would you like to say..."/>
-                </Form.Group>
-                <Form.Group className="text-center">
-                    <Button className="emailbuttom rounded" onClick={handleSubmit}>Send</Button>
-                </Form.Group>
+                    <h1 className="title">Send me an email</h1>
+                    <Form.Group className="my-2">
+                        <Form.Label className="text">Subject</Form.Label>
+                        <Form.Control onChange={(e) => setSubject(e.target.value)}/>
+                    </Form.Group>
+                    <Form.Group className="my-2">
+                        <Form.Label className="text">Message</Form.Label>
+                        <Form.Control as="textarea" rows={3} onChange={(e) => setBody(e.target.value)} placeholder="What would you like to say..."/>
+                    </Form.Group>
+                <Container className="text-center">
+                <Button className="button" onClick={handleSubmit}>Send</Button>
+                </Container>
             </Form>
         </Container>
     );

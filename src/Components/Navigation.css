@@ -1,3 +1,7 @@
+.nav{
+    background-color: var(--comp) !important;
+}
+
 .navtitle{
     color: var(--text) !important;
     font-size: x-large !important;
@@ -16,4 +20,8 @@
 
 .navitem:hover{
     color: var(--detail)!important;
+}
+
+.toggler{
+    background-color: var(--button) !important;
 }

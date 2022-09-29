@@ -33,13 +33,13 @@ export default function Experience(){
                     <Col md={3} >
                     <Nav variant="pills" className="flex-column">
                         <Nav.Item>
-                            <Nav.Link eventKey="first">Skill Matrix</Nav.Link>
+                            <Nav.Link eventKey="first" className="button">Skill Matrix</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="second">Power Platform</Nav.Link>
+                            <Nav.Link eventKey="second" className="button">Power Platform</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="third">Profile App</Nav.Link>
+                            <Nav.Link eventKey="third" className="button">Profile App</Nav.Link>
                         </Nav.Item>
                     </Nav>
                     </Col>
@@ -47,7 +47,7 @@ export default function Experience(){
                     <Tab.Content>
                         <Tab.Pane eventKey="first">
                             <p>
-                                My team and I designed and build a React.js 
+                                My team and I designed and built a React.js 
                                 application with HTML, CSS, React Bootstrap, and C# backend.
                             </p>
                             <p>
@@ -55,7 +55,7 @@ export default function Experience(){
                                 SoftwareONE employees could select their top skills and 
                                 display them for their coworkers to see. This would make it 
                                 easier to find collegues with skills set that would useful on 
-                                new projects
+                                new projects.
                             </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">

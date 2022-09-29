@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import "mdb-react-ui-kit";
-import './SkillItem.css'
+import './SkillItem.css';
 
 import Rating from '@mui/material/Rating';
 

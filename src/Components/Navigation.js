@@ -6,11 +6,11 @@ import './Navigation.css';
 export default function Navigation(){
 
     return(
-        <Navbar collapseOnSelect={true} expand="lg" bg="dark" variant="dark" sticky="top" style={{minWidth:"100%"}}>
+        <Navbar collapseOnSelect={true} className="nav" expand="lg" sticky="top" style={{minWidth:"100%"}}>
             <Nav.Item>
                 <Nav.Link eventKey="1" as={Link} to="/ProfileApp/" className="navtitle ms-3">Home</Nav.Link>
             </Nav.Item>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+            <Navbar.Toggle className="toggler" aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                 <Nav className="ms-2 me-lg-2" >
                     <Nav.Item>

@@ -1,21 +1,118 @@
 :root{
+  /* --basedark: #191919;
+  --detaildark: #FFAC41;
+  --extradark: #FFAC41;
+  --textdark: #F2F2F2;
+  --compdark: #323232;
+  --navdark: ;
+  --borderdark: #696969;
+  --shadowdark: #202020;
+
+  --baselight: #F0F2FS;
+  --detaillight: #FFAC41;
+  --extralight: #FFAC41;
+  --textlight: #191919;
+  --complight: #FAFAFA;
+  --navlight: ;
+  --borderlight: #E8EBE3;
+  --shadowight: #e2e2e2; */
+
+  /* --base: #191919;
+  --detail: #FFAC41;
+  --extra: #FFAC41;
+  --text: #F2F2F2;
+  --comp: #323232;
+  --nav: ;
+  --border: #000000;
+  --shadow: #121212; */
+
+  --success: #60C689;
+  --button: #77cafa;
+  --buttonhover: #50a8db;
+  --buttonselected: #1babff;
+  --danger: #FF1E56;
+  --warning: #fce729;
+  margin: 0;
+}
+
+/* 
+  --base: #F0F2FS;
+  --detail: #FFAC41;
+  --extra: #FFAC41;
+  --text: #191919;
+  --comp: #FAFAFA;
+  --nav: ;
+  --border: #E8EBE3;
+  --shadow: #e2e2e2;
+
+  --base: #191919;
+  --detail: #FFAC41;
+  --extra: #FFAC41;
+  --text: #F2F2F2;
+  --comp: #323232;
+  --nav: ;
+  --border: #000000;
+  --shadow: #121212;
+
+  --success: #60C689;
+  --button: #77cafa;
+  --buttonhover: #50a8db;
+  --buttonselected: #1babff;
+  --danger: #FF1E56;
+  --warning: #fce729; */
+
+.body{
+  /* padding-top: 70px !important; */
+  margin: 0 !important;
+  padding: 0 !important;
+  
+}
+
+.light{
+
+}
+
+.themebtn{
+  background-color: #00000000 !important;
+  border: none !important;
+}
+
+.button{
+  background-color: var(--button) !important;
+  color: var(--text) !important;
+}
+
+.button:hover{
+  background-color: var(--buttonhover) !important;
+}
+
+.button:focus{
+  background-color: var(--buttonselected) !important;
+}
+
+.button:checked{
+  background-color: var(--buttonselected) !important;
+}
+
+
+/*
+
+  --base: #191919;
+  --detail: #FF1E56;
+  --extra: #FFAC41;
+  --text: #F2F2F2;
+  --card: #323232;
+  --border: #FFAC41;
+  --shadow: #050505;
+
   --base: #191919;
   --extra: #ECDBBA;
   --detail: #C84B31;
   --text: #F2F2F2;
   --contentText: #181818;
-  --card: #2D4263;
-  margin: 0;
-}
+  --card: #313131;
+  --border: #616161;
 
-body{
-  /* padding-top: 70px !important; */
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-
-/*
   --base: #222831;
   --secondary: #DDDDDD;
   --detail: #F05454;
@@ -29,12 +126,5 @@ body{
   --text: #F2F2F2;
   --contentText: #f0f0f0;
   --navbar: #3F0071;
-
-  --base: #191919;
-  --secondary: #ECDBBA;
-  --detail: #C84B31;
-  --text: #F2F2F2;
-  --contentText: #181818;
-  --navbar: #2D4263;
 */
 
