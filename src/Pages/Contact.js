@@ -42,9 +42,9 @@ export default function Contact(){
                         <Form.Label className="text">Message</Form.Label>
                         <Form.Control as="textarea" rows={3} onChange={(e) => setBody(e.target.value)} placeholder="What would you like to say..."/>
                     </Form.Group>
-                <Container className="text-center">
-                <Button className="button" onClick={handleSubmit}>Send</Button>
-                </Container>
+                    <Container className="text-center">
+                        <Button className="button mt-4" onClick={handleSubmit}>Send</Button>
+                    </Container>
             </Form>
         </Container>
     );

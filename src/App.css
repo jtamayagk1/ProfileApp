@@ -1,31 +1,4 @@
 :root{
-  /* --basedark: #191919;
-  --detaildark: #FFAC41;
-  --extradark: #FFAC41;
-  --textdark: #F2F2F2;
-  --compdark: #323232;
-  --navdark: ;
-  --borderdark: #696969;
-  --shadowdark: #202020;
-
-  --baselight: #F0F2FS;
-  --detaillight: #FFAC41;
-  --extralight: #FFAC41;
-  --textlight: #191919;
-  --complight: #FAFAFA;
-  --navlight: ;
-  --borderlight: #E8EBE3;
-  --shadowight: #e2e2e2; */
-
-  /* --base: #191919;
-  --detail: #FFAC41;
-  --extra: #FFAC41;
-  --text: #F2F2F2;
-  --comp: #323232;
-  --nav: ;
-  --border: #000000;
-  --shadow: #121212; */
-
   --success: #60C689;
   --button: #77cafa;
   --buttonhover: #50a8db;
@@ -35,41 +8,11 @@
   margin: 0;
 }
 
-/* 
-  --base: #F0F2FS;
-  --detail: #FFAC41;
-  --extra: #FFAC41;
-  --text: #191919;
-  --comp: #FAFAFA;
-  --nav: ;
-  --border: #E8EBE3;
-  --shadow: #e2e2e2;
-
-  --base: #191919;
-  --detail: #FFAC41;
-  --extra: #FFAC41;
-  --text: #F2F2F2;
-  --comp: #323232;
-  --nav: ;
-  --border: #000000;
-  --shadow: #121212;
-
-  --success: #60C689;
-  --button: #77cafa;
-  --buttonhover: #50a8db;
-  --buttonselected: #1babff;
-  --danger: #FF1E56;
-  --warning: #fce729; */
-
 .body{
   /* padding-top: 70px !important; */
   margin: 0 !important;
   padding: 0 !important;
   
-}
-
-.light{
-
 }
 
 .themebtn{
